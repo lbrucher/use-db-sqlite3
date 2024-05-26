@@ -1,0 +1,23 @@
+{
+  "name": "use-db-sqlite3",
+  "version": "1.0.0",
+  "description": "sqlite3 driver for the use-db library",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --recursive --slow 200 -R spec test"
+  },
+  "keywords": [
+    "sql",
+    "sqlite",
+    "sqlite3"
+  ],
+  "author": "Laurent Brucher <laurent.brucher@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "mocha": "^10.4.0",
+    "should": "^13.2.3"
+  }
+}
